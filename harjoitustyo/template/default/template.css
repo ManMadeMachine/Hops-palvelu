@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+
+
+table.crudlist {
+    border-collapse: collapse;
+
+
+}  
+
+.crudlist TR {
+
+}
+
+.crudlist TD, .crudlist TH {
+   border: 1px solid black;
+   padding: 3px;
+}
+

@@ -1,0 +1,163 @@
+	/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* { 
+	padding: 0; margin: 0; 
+}
+
+body {
+	font-family: 'Corben', Georgia, Times, serif;
+	font-size: 13px;
+}
+
+#header {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+	width: 90%;
+	padding: 10px;
+	height: auto;
+}
+#header h1 {
+	font-family: 'Corben', Georgia, Times, serif;	
+	font-size: 40px;
+	color: #19578A;
+}
+#header h2 {
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 20px;
+	color: #19578A;
+}
+#login {
+	font-family: 'Open Sans', sans-serif;	
+	color: #19578A;
+	line-height: 12px;
+    width: auto;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-right: 5px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#language
+{
+	line-height: 12px;
+    width: auto;
+    font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;	
+    margin-top: 30px;
+    margin-right: 5px;
+    position:absolute;
+    top:0;
+    right:0;
+}
+
+#navigation {
+    margin-bottom: 5px;
+	color: #19578A;
+	width: 100%;
+	text-align: center;
+}
+
+.menu{
+    width: 100%;
+    background-color: #19578A; 
+}
+
+.menu ul{
+	width: 100%;
+	height: 100%;
+	margin-left: 50px;
+    padding: 0;
+    float: left;
+}
+
+.menu ul li {
+	height: 100%;
+	width: auto;
+	display: inline-block;
+}
+ 
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;	
+    float: left; text-decoration: none;
+    color: white;
+    padding: 15.5px 15px;
+    background-color: #19578A;
+    margin-right: 30px; 
+}
+ 
+.menu ul li a:visited{
+    color:
+}
+
+.menu ul li a:hover, .menu ul li .current{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#content { 
+	box-shadow: 10px 10px 5px #888888;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 90%;
+	color: #333;
+	border: 3px groove #19578A;
+	padding: 20px;
+}
+
+#content h1 {
+	color: #19578A;
+}
+
+#footer { 
+	text-align: center;
+	 width: 100%;
+	 clear: both;
+	 background: #eee;
+	 color: #19578A;
+	 margin: 0px 0px 10px 0px;
+	 padding: 10px;
+}
+
+.clear { clear: both; background: none; }
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

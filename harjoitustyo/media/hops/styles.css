@@ -1,0 +1,79 @@
+.ryhmat {
+	width: 30%;
+	float: left;
+}
+
+.ryhmat h2 {
+	color: #19578A;
+}
+
+.eka {
+	width: 40%;
+	float: left;
+
+}
+
+.toka {
+	width: 40%;
+	float: left;
+}
+
+#newGroup {
+	margin-top: 15px;
+	width:600px;
+ 	font-size: 15px;
+}
+
+.headersGroup {
+
+	float: left;
+	width: 150px;
+	color: #19578A;
+	text-align: right;
+}
+
+.data {
+	float: left;
+	width: 300px;
+
+}
+
+#save_group {
+	margin-top: 10px;
+	float: left;
+	margin-left: 30px;
+} 
+#cancel {
+	margin-top: 10px;
+	float: left;
+	margin-left: 30px;
+}
+
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

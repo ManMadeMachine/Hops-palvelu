@@ -1,0 +1,84 @@
+
+
+#avatar {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+#username {
+	padding: 5px;
+	color: #19578A;
+	display: inline-block;
+}
+
+ #profileView {
+ 	width:600px;
+ 	font-size: 15px;
+
+ }
+
+.headers {
+	float: left;
+	width: 200px;
+	color: #19578A;
+	text-align: right;
+}
+
+.headersTeacher {
+	float: left;
+	width: 140px;
+	color: #19578A;
+	text-align: right;
+}
+
+.data {
+	float: left;
+	width: 300px;
+}
+
+ #profileView_edit {
+ 	width:800px;
+ 	font-size: 15px;
+
+ }
+
+.headers_edit {
+	float: left;
+	width: 190px;
+	color: #19578A;
+	text-align: right;
+}
+.headers_edit_teacher {
+	float: left;
+	width: 150px;
+	color: #19578A;
+	text-align: right;
+
+}
+
+.data_edit {
+	float: left;
+	width: 500px;
+}
+
+#edit_profile {
+	margin-top: 10px;
+	margin-left: 120px;
+	float: left;
+}
+
+#cancel {
+	margin-top: 10px;
+	float: left;
+}
+
+#save_profile {
+	margin-top: 10px;
+	margin-left: 120px;
+	float: left;
+}
+
+
+
+
